@@ -1,14 +1,19 @@
 {
   "name": "socketash",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Socketash is simply an organizer for socket.io events.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {},
+  "keywords": [
+    "socket",
+    "socket.io",
+    "node",
+    "websocket",
+    "io",
+    "manager"
+  ],
+  "author": "Derrick Wales <aetiranos@crystaltome.com>",
+  "license": "GPL",
   "dependencies": {
     "q": "^1.4.1",
     "socket.io": "^1.4.8"

@@ -2,7 +2,7 @@ var express = require('express'),
     app = express(),
     socketash = require('./socketash'),
     server = require('http').Server(app),
-    io = require('socket.io')(server)
+    io = require('socket.io')(server),
     Socketash = new socketash(io);
 
 
